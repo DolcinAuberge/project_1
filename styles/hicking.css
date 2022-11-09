@@ -1,0 +1,55 @@
+body {
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+  padding: 5px;
+  border: 1px solid;
+}
+h1 {
+  text-align: center;
+}
+
+#glacierExperiance {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#mainBox {
+  display: flex;
+  flex-direction: row;
+}
+
+#box1 {
+  width: 33.33%;
+  height: 300px;
+  border: 1px solid;
+  padding: 10px;
+}
+
+#box2 {
+  width: 33.33%;
+  height: 300px;
+  border: 2px solid;
+  background-color: antiquewhite;
+  padding: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  line-clamp: 5;
+}
+
+#box3 {
+  width: 33.33%;
+  height: 300px;
+  border: 1px solid;
+  padding: 10px;
+}
+
+nav {
+  text-align: center;
+  font-size: 14;
+}
+
+#footer {
+  text-align: center;
+}
